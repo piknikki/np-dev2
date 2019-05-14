@@ -40,8 +40,8 @@ class App extends Component {
 
         <Router>
           <Navbar color="inverse" light expand="md" toggleable="true" >
-            <NavbarBrand href="/">
-              <img id="App-logo" className="App-logo App-logo-spin" src='/images/applogo.png' alt="donut logo" />
+            <NavbarBrand href="/" className="logo ">
+              <img id="App-logo" className="App-logo" src={process.env.PUBLIC_URL + '/images/applogo.png'} alt="donut logo" />
             </NavbarBrand>
 
             <NavbarToggler onClick={this.toggle} />

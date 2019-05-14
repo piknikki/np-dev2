@@ -9,6 +9,16 @@
   color: #61dafb;
 }
 
+/*.logo {*/
+/*  text-align: center;*/
+/*  height: 105px;*/
+/*  width: 100px;*/
+/*  left: calc(100px + (6px * 3));*/
+/*  top: calc(20px + (6px * 3));*/
+/*  position: absolute;*/
+/*  margin: auto;*/
+/*}*/
+
 .container {
   padding: 10px 50px;
 }
@@ -53,5 +63,8 @@ p {
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
   }
 }
