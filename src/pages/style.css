@@ -1,0 +1,117 @@
+
+
+h1 {
+    text-align: center;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: 'Cabin', sans-serif;
+    color: #5934f6;
+    line-height: 1.6;
+    margin: 0 auto 12px auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    font-family: 'Cabin', sans-serif;
+    color: #5934f6;
+    line-height: 1.6;
+    margin: 0 auto 12px auto;
+}
+
+h3 {
+    color: #2AD4AC;
+    font-size: 18px;
+    text-align: center;
+}
+
+.about-container {
+    color: #2AD4AC;
+    font-size: 22px;
+    text-align: center;
+    padding: 50px 200px;
+    margin: 0 auto;
+}
+
+.nav-link {
+    font-family: 'Roboto Mono', monospace;
+    color: #5934f6;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 1px;
+    margin-right: 6px;
+
+}
+
+
+.nav-link:hover {
+    border-left: 1px dotted #5934f6;
+    border-right: 1px dotted #5934f6;
+    margin-left: 0;
+    margin-right: 5px;
+
+}
+
+.nav-item {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#resume-container {
+    margin: 50px;
+    padding: 50px 0;
+
+}
+
+#resume-box {
+    text-align: center;
+    margin: 0 auto;
+}
+
+a.nav-link {
+    text-decoration: none;
+}
+
+
+.blog-section,
+.work-section {
+    padding: 0 200px;
+}
+
+h1.work-section {
+    text-align: center;
+    font-size: 31px;
+    font-weight: normal;
+    font-family: 'Cabin', sans-serif;
+    color: #2AD4AC;
+    line-height: 1.6;
+    margin: 0 auto 12px auto;
+}
+
+.work-section {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: 1px solid #5934f6;
+    background-color: #F9F4FF;
+    padding-bottom: 50px;
+    color: #2AD4AC;
+}
+
+#work {
+    margin-bottom: 100px;
+
+}
+
+.card {
+    text-align: center;
+}
+
+.image {
+    width: 250px;
+    height: 170px;
+    margin: 10px;
+    padding: 10px;
+}
