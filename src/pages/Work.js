@@ -27,15 +27,12 @@ function Work(props) {
                             to={`${props.match.url}/learn`}
                             role="button"
                             className="btn btn-link nav-link">
-                            See More
+                            Show Projects
                         </Link>
 
-                        <Link to="/work"
-                              role="button"
-                              className="btn btn-link nav-link">
-                            See Less
-                        </Link>
+
                         <Route exact path={`${props.match.url}/learn`} component={Learn} />
+
 
             </div>
         </div>

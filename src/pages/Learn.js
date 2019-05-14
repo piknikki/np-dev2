@@ -1,8 +1,15 @@
 import React from "react";
+import {Link} from "react-router-dom";
+
 
 function Learn() {
     return (
         <div>
+            <Link to="/work"
+                  role="button"
+                  className="btn btn-link nav-link">
+                Hide Projects
+            </Link>
             <div className="card">
                 <div className="img-container">
                     <a href="https://thawing-caverns-69795.herokuapp.com/" >
