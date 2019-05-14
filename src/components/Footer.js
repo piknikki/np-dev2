@@ -25,8 +25,12 @@ const Footer = () => {
                     <NavLink className="nav-link"  href="https://www.linkedin.com/in/nikkipetersencsm">linkedin: https://www.linkedin.com/in/nikkipetersencsm</NavLink>
                </NavItem>
                 </Nav>
+                <br/>
+                Made by Nikki with 🧠 and 💜
             </Col>
+
         </Row>
+
     )
 };
 
