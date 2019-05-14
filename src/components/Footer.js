@@ -1,8 +1,9 @@
 import React from "react";
 import {
     NavLink,
+    Row,
+    Col,
     NavItem,
-    Container,
     Nav
 } from 'reactstrap';
 import '../pages/style.css';
@@ -48,22 +49,37 @@ import '../pages/style.css';
 
 const Footer = () => {
     return (
-        <Container>
-            <Nav className="ml-auto" navbar>
+        <Row>
+
+            <Col sm="12" md={{ size: 8, offset: 1 }} id="footer-container">
+                <Nav>
                 <NavItem>
-                    <NavLink className="nav-link" href="mailto:nikkipetersen.dev@gmail.com?Subject=GimmeAJob">email</NavLink>
+                    <NavLink className="nav-link" href="mailto:nikkipetersen.dev@gmail.com?Subject=GimmeAJob">email: nikkipetersen.dev@gmail.com</NavLink>
                 </NavItem>
-            <NavItem>
-                <NavLink className="nav-link" href="https://github.com/piknikki?tab=repositories">github</NavLink>
-            </NavItem>
+
                 <NavItem>
-                <NavLink className="nav-link"  href="https://www.linkedin.com/in/nikkipetersencsm/">linkedin</NavLink>
+                    <NavLink className="nav-link" href="https://github.com/piknikki?tab=repositories">github: https://github.com/piknikki</NavLink>
                 </NavItem>
-            </Nav>
-        </Container>
+
+               <NavItem>
+                    <NavLink className="nav-link"  href="https://www.linkedin.com/in/nikkipetersencsm">linkedin: https://www.linkedin.com/in/nikkipetersencsm</NavLink>
+               </NavItem>
+                </Nav>
+            </Col>
+
+        </Row>
+
+
+
+//
+// <Row>
+// <Col sm="12" md={{ size: 6, offset: 3 }}>.col-sm-12 .col-md-6 .offset-md-3</Col>
+// </Row>
 
     )
 
 };
 
 export default Footer;
+
+// list-style-type: none;

@@ -8,8 +8,8 @@ function Blog() {
             <div className="blog-container">
                 <h1>This is a space for my blog</h1>
                 <p>
-                    I have written love notes, essays, papers, a Masters Thesis, a book, and yes, also blogs. They just aren't here
-                    yet. Soon.
+                    I have written love notes, prescriptions and SOAP notes, essays, papers, a Masters thesis, a book, and
+                    yes, also blogs. They just aren't here yet. Soon.
                 </p>
             </div>
         </section>

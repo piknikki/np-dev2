@@ -26,11 +26,18 @@ h3 {
     text-align: center;
 }
 
+#footer-container,
 .about-container {
     color: #2AD4AC;
     font-size: 22px;
     text-align: center;
-    padding: 50px 200px;
+    padding: 50px 150px;
+    margin: 0 auto;
+}
+
+#footer-container {
+    font-size: 18px;
+    padding: 20px 100px;
     margin: 0 auto;
 }
 
@@ -73,13 +80,21 @@ a.nav-link {
     text-decoration: none;
 }
 
+p {
+    font-size: 18px;
+}
 
-.blog-section,
+
 .work-section {
     padding: 0 200px;
 }
 
-h1.work-section {
+.blog-container {
+    padding: 20px 50px;
+    font-size: 18px;
+}
+
+.work-section-h1 {
     text-align: center;
     font-size: 31px;
     font-weight: normal;
@@ -89,6 +104,8 @@ h1.work-section {
     margin: 0 auto 12px auto;
 }
 
+
+
 .work-section {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -96,14 +113,21 @@ h1.work-section {
     padding: 20px;
     outline: 1px solid #5934f6;
     background-color: #F9F4FF;
-    padding-bottom: 50px;
     color: #2AD4AC;
 }
 
-#work {
-    margin-bottom: 100px;
-
+.interests-container {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px;
+    outline: 1px solid #2AD4AC;
+    background-color: #d2f7ee;
+    padding-bottom: 50px;
+    color: #5934f6;
 }
+
+
 
 .card {
     text-align: center;
@@ -115,3 +139,4 @@ h1.work-section {
     margin: 10px;
     padding: 10px;
 }
+

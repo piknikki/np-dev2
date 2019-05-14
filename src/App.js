@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import { NavLink, BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import {
   Collapse,
   Navbar,
@@ -7,7 +7,6 @@ import {
   NavbarBrand,
   Nav,
   NavItem,
-  NavLink,
   Container
 } from 'reactstrap';
 import './App.css';
@@ -42,7 +41,7 @@ class App extends Component {
         <Router>
           <Navbar color="inverse" light expand="md" toggleable="true" >
             <NavbarBrand href="/">
-              <img id="App-logo" className="App-logo" src='/images/applogo.png' alt="donut logo" />
+              <img id="App-logo" className="App-logo App-logo-spin" src='/images/applogo.png' alt="donut logo" />
             </NavbarBrand>
 
             <NavbarToggler onClick={this.toggle} />
@@ -53,7 +52,7 @@ class App extends Component {
                   <NavLink
                       to="/"
                       className="nav-link"
-                      activeClassName="Active"
+                      activeClassName="active"
                       isActive={ () => window.location.pathname === "/" || window.location.pathname === "/about" }
                   >
                     About
@@ -64,7 +63,7 @@ class App extends Component {
                   <NavLink
                       to="/work"
                       className="nav-link"
-                      activeClassName="Active"
+                      activeClassName="active"
                       isActive={ () => window.location.pathname === "/work" }
                   >
                     Work
@@ -75,7 +74,7 @@ class App extends Component {
                   <NavLink
                       to="/interests"
                       className="nav-link"
-                      activeClassName="Active"
+                      activeClassName="active"
                       isActive={ () => window.location.pathname === "/interests" }
                   >
                     Interests
@@ -85,7 +84,9 @@ class App extends Component {
                 <NavItem>
                   <NavLink
                       to="/blog"
-                      className="nav-item"
+                      className="nav-link"
+                      activeClassName="active"
+                      isActive={ () => window.location.pathname === "/blog" }
                   >
                     Blog
                   </NavLink>
@@ -97,9 +98,9 @@ class App extends Component {
 
           <Container>
             <Switch>
-              <Route exact path="/Interests" component={Interests} />
+              <Route exact path="/interests" component={Interests} />
               <Route exact path="/blog" component={Blog} />
-              <Route path="/Work" component={Work} />
+              <Route path="/work" component={Work} />
               <Route component={About} />
             </Switch>
 

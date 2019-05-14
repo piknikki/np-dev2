@@ -1,13 +1,14 @@
 import React from "react";
 import { Link, Route } from "react-router-dom";
 import Learn from "./Learn";
+
 import './style.css';
 
 function Work(props) {
     return (
         <div id="work">
             <div className="work-section">
-                <h1>My work to date . . . </h1>
+                <h1 className="work-section-h1">My work to date . . . </h1>
                 <p>
                     I started programming when I was in 6th grade, but I haven't always been a coder. Although I started then,
                     I have done a great number of things in the time since. I've been a firefighter, a model, a life coach, bussed tables,
@@ -21,13 +22,21 @@ function Work(props) {
                     previously learned SQL (PostgreSQL) and Python.  Right now I'm really loving React!
                     <br/><br/>
                 </p>
-                <Link to={`${props.match.url}/learn`} role="button" className="btn btn-link">
-                    See More
-                </Link>{" "}
-                <Link to="/work" role="button" className="btn btn-link">
-                    See Less
-                </Link>
-                <Route exact path={`${props.match.url}/learn`} component={Learn} />
+
+                        <Link
+                            to={`${props.match.url}/learn`}
+                            role="button"
+                            className="btn btn-link nav-link">
+                            See More
+                        </Link>
+
+                        <Link to="/work"
+                              role="button"
+                              className="btn btn-link nav-link">
+                            See Less
+                        </Link>
+                        <Route exact path={`${props.match.url}/learn`} component={Learn} />
+
             </div>
         </div>
     );
