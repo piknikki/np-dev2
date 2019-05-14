@@ -16,6 +16,7 @@ import Interests from "./pages/Interests";
 import Work from "./pages/Work";
 import Blog from "./pages/Blog";
 import Footer from "./components/Footer";
+// import Navigation from "./components/Navigation";
 
 class App extends Component {
   constructor(props) {
