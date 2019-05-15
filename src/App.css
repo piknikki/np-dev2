@@ -47,14 +47,6 @@
   padding-left: 1rem;
 }
 
-h3 {
-  font-size: 21px;
-  font-weight: normal;
-  font-family: 'Cabin', sans-serif;
-  color: #5934f6;
-  /*background-image: linear-gradient(to right, rgba(255,0,0,0), #ddd6f9);*/
-}
-
 p {
   font-family: 'Cabin', sans-serif;
   color: #2AD4AC;

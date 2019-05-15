@@ -32,7 +32,10 @@ function About() {
             </Row>
             <Row id="resume-container">
                 <Col text-center="true" sm="12" md={{ size: 6 }} id="resume-box">
-                    <h1><NavLink href="https://github.com/piknikki/piknikki.github.io/blob/master/Nikki%20Petersen%20Resume.pdf" >My resume
+                    <h1><NavLink
+                        className="nav-item nav-link"
+                        id="navlink-resume"
+                        href="https://github.com/piknikki/piknikki.github.io/blob/master/Nikki%20Petersen%20Resume.pdf" >My resume
                     </NavLink></h1>
                 </Col>
             </Row>
