@@ -39,7 +39,7 @@ class App extends Component {
     return (
 
         <Router>
-          <Navbar color="inverse" light expand="md" toggleable="true" >
+          <Navbar id="navbar-element" color="inverse" light expand="md" toggleable="true" >
             <NavbarBrand href="/" className="logo ">
               <img
                   id="App-logo"

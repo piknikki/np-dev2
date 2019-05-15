@@ -15,7 +15,7 @@ function About() {
         <Container>
             <Row>
                 <Col xs="auto" className="intro">
-                    <h1>Hi.  I'm Nikki Petersen and I am a Full Stack Software Developer in the Denver area
+                    <h1>Hi.  I'm <span className="name">Nikki Petersen</span> and I am a Full Stack Software Developer in the Denver area
                         who loves to create fun, beautiful, and useful web applications (and I believe passionately in
                         the Oxford Comma).  ((and donuts))</h1>
                     <h2>I started programming in 6th grade and recently rediscovered this passion. I seek a role as a

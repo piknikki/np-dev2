@@ -71,9 +71,7 @@ h3 {
 }
 
 #resume-container {
-    margin: 20px;
-    padding: 20px 0;
-
+    padding: 10px 0;
 }
 
 #resume-box {
@@ -150,5 +148,9 @@ p {
     height: 170px;
     margin: 10px;
     padding: 10px;
+}
+
+.name {
+    font-family: 'Roboto Slab', serif;
 }
 

@@ -1,3 +1,10 @@
+/*font-family: 'Roboto Slab', serif;*/
+/*font-family: 'Nunito', sans-serif;*/
+
+#navbar-element {
+  padding: 40px 40px;
+}
+
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 8vmin;
@@ -9,15 +16,6 @@
   color: #61dafb;
 }
 
-/*.logo {*/
-/*  text-align: center;*/
-/*  height: 105px;*/
-/*  width: 100px;*/
-/*  left: calc(100px + (6px * 3));*/
-/*  top: calc(20px + (6px * 3));*/
-/*  position: absolute;*/
-/*  margin: auto;*/
-/*}*/
 
 .container {
   padding: 10px 50px;
