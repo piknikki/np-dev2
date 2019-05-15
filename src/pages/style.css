@@ -154,3 +154,9 @@ p {
     font-family: 'Roboto Slab', serif;
 }
 
+ul {
+    margin: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+
