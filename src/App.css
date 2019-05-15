@@ -58,6 +58,7 @@ h3 {
 p {
   font-family: 'Cabin', sans-serif;
   color: #2AD4AC;
+  font-size: 18px;
 }
 
 @keyframes App-logo-spin {
