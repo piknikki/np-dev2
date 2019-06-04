@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/np-dev2/static/css/main.25a59140.chunk.css",
+    "main.js": "/np-dev2/static/js/main.c2d84473.chunk.js",
+    "main.js.map": "/np-dev2/static/js/main.c2d84473.chunk.js.map",
+    "runtime~main.js": "/np-dev2/static/js/runtime~main.f1c19f3e.js",
+    "runtime~main.js.map": "/np-dev2/static/js/runtime~main.f1c19f3e.js.map",
+    "static/css/2.266e55a5.chunk.css": "/np-dev2/static/css/2.266e55a5.chunk.css",
+    "static/js/2.5aad20b0.chunk.js": "/np-dev2/static/js/2.5aad20b0.chunk.js",
+    "static/js/2.5aad20b0.chunk.js.map": "/np-dev2/static/js/2.5aad20b0.chunk.js.map",
+    "index.html": "/np-dev2/index.html",
+    "precache-manifest.59d40024a89cee2987116641d165efc5.js": "/np-dev2/precache-manifest.59d40024a89cee2987116641d165efc5.js",
+    "service-worker.js": "/np-dev2/service-worker.js",
+    "static/css/2.266e55a5.chunk.css.map": "/np-dev2/static/css/2.266e55a5.chunk.css.map",
+    "static/css/main.25a59140.chunk.css.map": "/np-dev2/static/css/main.25a59140.chunk.css.map"
+  }
+}
